@@ -7,12 +7,19 @@ export interface Focaccia {
   descripcion: string;
   ingredientes: string[];
   precio: number;
+  highlight: boolean;
 }
 
-export default function ProductsList() {
-  const focaccias: Focaccia[] = data;
+export default function ProductsList({
+  highlightedOnly,
+}: {
+  highlightedOnly: boolean;
+}) {
+  const focaccias: Focaccia[] = !highlightedOnly
+    ? data
+    : data.filter((f) => f.highlight);
   return (
-    <div className="flex justify-center gap-4 flex-wrap pt-4 px-8">
+    <div className="flex w-full justify-center gap-2 flex-wrap ">
       {focaccias.map((f: Focaccia) => (
         <ProductCard key={f.id} {...f}></ProductCard>
       ))}
