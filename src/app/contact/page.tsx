@@ -25,7 +25,7 @@ export default function Contact() {
 
   const onSubmit: SubmitHandler<Inputs> = (data) => {
     console.log(data);
-    return alert(data.name);
+    return alert('Mensaje enviado');
   };
   return (
     <div className="flex flex-col items-center justify-center w-full  ">
