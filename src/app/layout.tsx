@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Inter as FontSans } from "next/font/google";
 import { cn } from "../lib/utils";
+import Bricks from "../components/Bricks/bricks";
+import { NavBar } from "../components/NavBar/nav-bar";
+import Footer from "../components/Footer/footer";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -27,7 +30,11 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        {children}
+        <Bricks>
+          <NavBar></NavBar>
+          {children}
+          <Footer></Footer>
+        </Bricks>
       </body>
     </html>
   );

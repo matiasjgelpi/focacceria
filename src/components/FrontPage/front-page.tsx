@@ -5,8 +5,11 @@ export function FrontPage() {
   const content = {
     title: "La focaccia mdp",
     subtitle: "Tradición y Sabor Mediterráneo",
-    description:
-      "El sabor y el buen hacer de toda la cocina italiana. A base de harina, aceite de oliva y sal. Nacida en la Edad Media en el puerto de Génova, conquistando corazones en todo el mundo.",
+    description: [
+      "El sabor y el buen hacer de toda la cocina italiana.",
+      "A base de harina, aceite de oliva y sal.",
+      "Nacida en la Edad Media en el puerto de Génova, conquistando corazones en todo el mundo.",
+    ],
   };
   return (
     <main className=" flex px-12 flex-col gap-4 justify-center items-center">
@@ -30,11 +33,17 @@ export function FrontPage() {
           
           "
       >
-        <p className="text-center text-xl uppercase   text-red-600">
-          {content.description}
-        </p>
+        <ul>
+          {content.description.map((desc, index) => (
+            <li
+              key={index}
+              className="text-center text-xl uppercase text-red-600 "
+            >
+              {desc}
+            </li>
+          ))}
+        </ul>
       </div>
     </main>
-    // </Bricks>
   );
 }

@@ -6,8 +6,7 @@ import Footer from "../components/Footer/footer";
 
 export default function Home() {
   return (
-    <Bricks>
-      <NavBar></NavBar>
+    <>
       <FrontPage></FrontPage>
       <div className=" mt-2 px-12 flex flex-col justify-center items-center">
         <h2 className="p-2 font-extrabold text-xl uppercase rounded bg-white  w-fit">
@@ -15,7 +14,6 @@ export default function Home() {
         </h2>
         <ProductsList highlightedOnly={true}></ProductsList>
       </div>
-      <Footer></Footer>
-    </Bricks>
+    </>
   );
 }

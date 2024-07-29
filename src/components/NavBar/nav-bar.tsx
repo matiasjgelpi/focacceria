@@ -19,21 +19,21 @@ export function NavBar() {
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
-            <Link href="/docs" legacyBehavior passHref>
+            <Link href="/" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Inicio
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href="/docs" legacyBehavior passHref>
+            <Link href="/catalog" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Nuestras varidades
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href="/docs" legacyBehavior passHref>
+            <Link href="/contact" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Contacto
               </NavigationMenuLink>
