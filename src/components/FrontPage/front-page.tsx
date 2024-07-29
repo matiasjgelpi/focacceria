@@ -6,7 +6,7 @@ export function FrontPage() {
     title: "La focaccia mdp",
     subtitle: "Tradición y Sabor Mediterráneo",
     description:
-      "Si hay un producto que resume la naturalidad, el sabor y el buen hacer de toda la cocina italiana, este es sin lugar a dudas la focaccia. Esta sencilla y tradicional elaboración mediterránea se hace a base de harina, aceite de oliva y sal. Desde su fuerte aparición durante la Edad Media en el puerto de Génova, ha conseguido conquistar corazones en todo el mundo hasta convertirse en un básico imprescindible en la carta o menú de cualquier establecimiento.",
+      "El sabor y el buen hacer de toda la cocina italiana. A base de harina, aceite de oliva y sal. Nacida en la Edad Media en el puerto de Génova, conquistando corazones en todo el mundo.",
   };
   return (
     <main className=" flex px-12 flex-col gap-4 justify-center items-center">
@@ -26,11 +26,13 @@ export function FrontPage() {
         </p>
       </div>
       <div
-        className=" font-bold w-full  flex justify-center items-center bg-white bg-opacity-80 p-4 rounded-3xl
+        className=" font-bold w-full p-10 flex justify-center items-center bg-white bg-opacity-80 rounded-3xl
           
           "
       >
-        <p>{content.description}</p>
+        <p className="text-center text-xl uppercase   text-red-600">
+          {content.description}
+        </p>
       </div>
     </main>
     // </Bricks>
