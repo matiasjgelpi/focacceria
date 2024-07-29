@@ -11,9 +11,9 @@ const navigation: {
   social: NavigationItem[];
 } = {
   main: [
-    { name: "Inicio", href: "#" },
-    { name: "Nuestras variedades", href: "#" },
-    { name: "Contacto", href: "#" },
+    { name: "Inicio", href: "/" },
+    { name: "Nuestras variedades", href: "/catalog" },
+    { name: "Contacto", href: "/contact" },
   ],
   social: [
     {
@@ -76,7 +76,8 @@ const Footer: React.FC = () => {
           ))}
         </div>
         <p className="mt-6 text-center text-sm text-gray-600 dark:text-gray-100">
-          &copy; {new Date().getFullYear()} Matías Gelpi. Todos los derechos reservados.
+          &copy; {new Date().getFullYear()} Matías Gelpi. Todos los derechos
+          reservados.
         </p>
       </div>
     </footer>

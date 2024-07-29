@@ -6,7 +6,7 @@
         "ingredientes": ["harina", "agua", "sal", "levadura", "aceite de oliva"],
         "precio": 5.50,
         "highlight": false,
-        "image_url":"/images/focaccias/focacciaPlaceholder.webp"
+        "image_url":"/images/focaccias/focaccia1.webp"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "ingredientes": ["harina", "agua", "sal", "levadura", "aceite de oliva", "romero"],
         "precio": 6.00,
         "highlight": false,
-        "image_url":"/images/focaccias/focacciaPlaceholder.webp"
+        "image_url":"/images/focaccias/focaccia2.jpg"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "ingredientes": ["harina", "agua", "sal", "levadura", "aceite de oliva", "tomate seco", "aceitunas negras"],
         "precio": 7.00,
         "highlight": false,
-        "image_url":"/images/focaccias/focacciaPlaceholder.webp"
+        "image_url":"/images/focaccias/focaccia3.webp"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "ingredientes": ["harina", "agua", "sal", "levadura", "aceite de oliva", "cebolla", "queso parmesano"],
         "precio": 7.50,
         "highlight": true,
-        "image_url":"/images/focaccias/focacciaPlaceholder.webp"
+        "image_url":"/images/focaccias/focaccia4.jpg"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "ingredientes": ["harina", "agua", "sal", "levadura", "aceite de oliva", "aceitunas"],
         "precio": 6.50,
         "highlight": false,
-        "image_url":"/images/focaccias/focacciaPlaceholder.webp"
+        "image_url":"/images/focaccias/focaccia5.jpg"
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "ingredientes": ["harina", "agua", "sal", "levadura", "aceite de oliva", "queso de cabra", "miel"],
         "precio": 8.00,
         "highlight": true,
-        "image_url":"/images/focaccias/focacciaPlaceholder.webp"
+        "image_url":"/images/focaccias/focaccia6.webp"
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "ingredientes": ["harina", "agua", "sal", "levadura", "aceite de oliva", "pesto", "piñones"],
         "precio": 7.75,
         "highlight": true,
-        "image_url":"/images/focaccias/focacciaPlaceholder.webp"
+        "image_url":"/images/focaccias/focaccia7.jpg"
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "ingredientes": ["harina", "agua", "sal", "levadura", "aceite de oliva", "espinacas", "ricotta"],
         "precio": 8.50,
         "highlight": false,
-        "image_url":"/images/focaccias/focacciaPlaceholder.webp"
+        "image_url":"/images/focaccias/focaccia8.webp"
     },
     {
         "id": 9,
@@ -78,7 +78,7 @@
         "ingredientes": ["harina", "agua", "sal", "levadura", "aceite de oliva", "ajo", "perejil"],
         "precio": 6.25,
         "highlight": false,
-        "image_url":"/images/focaccias/focacciaPlaceholder.webp"
+        "image_url":"/images/focaccias/focaccia9.jpg"
     },
     {
         "id": 10,
@@ -87,6 +87,6 @@
         "ingredientes": ["harina", "agua", "sal", "levadura", "aceite de oliva", "calabaza", "especias"],
         "precio": 7.00,
         "highlight": true,
-        "image_url":"/images/focaccias/focacciaPlaceholder.webp"
+        "image_url":"/images/focaccias/focaccia10.jpeg"
     }
 ]

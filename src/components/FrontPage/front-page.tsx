@@ -12,19 +12,19 @@ export function FrontPage() {
     ],
   };
   return (
-    <main className=" flex px-12 flex-col gap-4 justify-center items-center">
-      <div className="flex w-fit justify-center relative">
-        <h1 className="absolute left-10 top-4  text-6xl  font-extrabold uppercase">
+    <main className=" flex px-12 max-sm:px-4 flex-col gap-4 justify-center items-center">
+      <div className="flex w-fit max-sm:h-[200px] justify-center relative">
+        <h1 className="absolute left-10  max-sm:left-5  top-4    text-6xl max-sm:text-3xl  font-extrabold uppercase">
           {content.title}{" "}
         </h1>
         <Image
-          className="rounded-3xl"
+          className="rounded-3xl "
           src="/images/front/fotoPortada.png"
           alt="focaccia front page"
           width={1920}
           height={800}
         />
-        <p className="absolute top-1/2 left-10 uppercase font-bold text-red-600">
+        <p className=" max-sm:text-sm absolute  top-1/2  max-sm:top-14 left-10 max-sm:left-5 uppercase font-bold text-red-600 max-sm:bg-slate-400 max-sm:bg-opacity-60 max-sm:rounded-sm">
           {content.subtitle}
         </p>
       </div>
@@ -37,7 +37,7 @@ export function FrontPage() {
           {content.description.map((desc, index) => (
             <li
               key={index}
-              className="text-center text-xl uppercase text-red-600 "
+              className="text-center text-xl max-sm:text-xs uppercase text-red-600 "
             >
               {desc}
             </li>
