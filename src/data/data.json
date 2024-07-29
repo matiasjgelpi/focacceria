@@ -5,7 +5,8 @@
         "descripcion": "Una deliciosa focaccia con aceite de oliva y sal marina.",
         "ingredientes": ["harina", "agua", "sal", "levadura", "aceite de oliva"],
         "precio": 5.50,
-        "highlight": false
+        "highlight": false,
+        "image_url":"/images/focaccias/focacciaPlaceholder.webp"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "descripcion": "Focaccia aromatizada con romero fresco y sal gruesa.",
         "ingredientes": ["harina", "agua", "sal", "levadura", "aceite de oliva", "romero"],
         "precio": 6.00,
-        "highlight": false
+        "highlight": false,
+        "image_url":"/images/focaccias/focacciaPlaceholder.webp"
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "descripcion": "Focaccia con tomates secos y aceitunas negras.",
         "ingredientes": ["harina", "agua", "sal", "levadura", "aceite de oliva", "tomate seco", "aceitunas negras"],
         "precio": 7.00,
-        "highlight": false
+        "highlight": false,
+        "image_url":"/images/focaccias/focacciaPlaceholder.webp"
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "descripcion": "Focaccia suave con cebolla caramelizada y queso parmesano.",
         "ingredientes": ["harina", "agua", "sal", "levadura", "aceite de oliva", "cebolla", "queso parmesano"],
         "precio": 7.50,
-        "highlight": true
+        "highlight": true,
+        "image_url":"/images/focaccias/focacciaPlaceholder.webp"
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "descripcion": "Focaccia rellena de aceitunas verdes y negras.",
         "ingredientes": ["harina", "agua", "sal", "levadura", "aceite de oliva", "aceitunas"],
         "precio": 6.50,
-        "highlight": false
+        "highlight": false,
+        "image_url":"/images/focaccias/focacciaPlaceholder.webp"
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "descripcion": "Focaccia con queso de cabra y miel, perfecta para un aperitivo.",
         "ingredientes": ["harina", "agua", "sal", "levadura", "aceite de oliva", "queso de cabra", "miel"],
         "precio": 8.00,
-        "highlight": true
+        "highlight": true,
+        "image_url":"/images/focaccias/focacciaPlaceholder.webp"
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "descripcion": "Focaccia cubierta con pesto fresco y piñones.",
         "ingredientes": ["harina", "agua", "sal", "levadura", "aceite de oliva", "pesto", "piñones"],
         "precio": 7.75,
-        "highlight": true
+        "highlight": true,
+        "image_url":"/images/focaccias/focacciaPlaceholder.webp"
     },
     {
         "id": 8,
@@ -61,7 +68,8 @@
         "descripcion": "Focaccia rellena de espinacas frescas y ricotta cremosa.",
         "ingredientes": ["harina", "agua", "sal", "levadura", "aceite de oliva", "espinacas", "ricotta"],
         "precio": 8.50,
-        "highlight": false
+        "highlight": false,
+        "image_url":"/images/focaccias/focacciaPlaceholder.webp"
     },
     {
         "id": 9,
@@ -69,7 +77,8 @@
         "descripcion": "Focaccia con un toque de ajo y perejil fresco.",
         "ingredientes": ["harina", "agua", "sal", "levadura", "aceite de oliva", "ajo", "perejil"],
         "precio": 6.25,
-        "highlight": false
+        "highlight": false,
+        "image_url":"/images/focaccias/focacciaPlaceholder.webp"
     },
     {
         "id": 10,
@@ -77,6 +86,7 @@
         "descripcion": "Focaccia suave con puré de calabaza y especias.",
         "ingredientes": ["harina", "agua", "sal", "levadura", "aceite de oliva", "calabaza", "especias"],
         "precio": 7.00,
-        "highlight": true
+        "highlight": true,
+        "image_url":"/images/focaccias/focacciaPlaceholder.webp"
     }
 ]
