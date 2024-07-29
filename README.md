@@ -5,6 +5,7 @@ Este es un sitio para un local gastronómico para una prueba técnica desarrolla
 - Consta de:
 - Sección de bienvenida.
 - Sección de catálogo y productos.
+- Sección de detalle del producto.
 - Sección de contacto.
 - Utilicé [Tailwind](https://tailwindcss.com/) para los estilos y la librerías [Shadcn](https://ui.shadcn.com/) y [SyntaxUI](https://syntaxui.com/) para agilizar la implementación de componentes.
 - El sitio responsive.
